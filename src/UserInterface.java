@@ -30,7 +30,7 @@ public class UserInterface {
 				break;
 			} catch (NumberFormatException e) {
 				// TODO Auto-generated catch block
-				System.out.println("Provide a smaller integer value please :)");
+				System.out.println("Provide a smaller(or a valid) integer value please :)");
 			}
 		}
 		
