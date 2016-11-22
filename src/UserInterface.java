@@ -18,6 +18,8 @@ public class UserInterface {
 		askForArraySize();
 		askForComplexity();
 		fillArray();
+		dupArray = new int[answerSizeOfArray];
+		Calculator.initDupArray(array, dupArray);
 		askForSortingAlgo();
 		
 	}
